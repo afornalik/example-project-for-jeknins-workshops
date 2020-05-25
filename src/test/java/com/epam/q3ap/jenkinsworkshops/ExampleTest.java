@@ -13,4 +13,9 @@ public class ExampleTest {
     // Then
     assertTrue(true, "To pass test condition should be true, but was false");
   }
+
+  @Test
+  public void shouldPassMyTest() {
+    assertTrue(true,"My own test, always true.");
+  }
 }
