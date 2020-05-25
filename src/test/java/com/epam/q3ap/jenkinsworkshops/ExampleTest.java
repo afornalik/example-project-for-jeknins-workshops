@@ -1,5 +1,6 @@
 package com.epam.q3ap.jenkinsworkshops;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Test;
@@ -18,4 +19,15 @@ public class ExampleTest {
   public void shouldPassMyTest() {
     assertTrue(true,"My own test, always true.");
   }
+
+  @Test
+  public void shouldAgainPass() {
+    //given
+
+    //when
+
+    //then
+    assertEquals(2,2);
+  }
 }
+
