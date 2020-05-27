@@ -13,5 +13,11 @@ pipeline {
                 sh 'mvn package'
             }
         }
+        stage('sleep') {
+            steps {
+                sleep(time: 3, unit: 'MINUTES')
+                echo('Hello world user.')
+            }
+        }
     }
 }
